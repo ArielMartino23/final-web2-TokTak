@@ -1,0 +1,24 @@
+I.  (GET) /api/videos/visibles
+    "Como usuario quiero poder ver la lista de videos visibles".
+    ApiVideoController.php
+    getVideosVisibles()
+
+II. (PUT) /api/videos/:ID
+    "Como usuario quiero poder editar el título de un video".
+    ApiVideoController.php
+    editarVideo()
+
+III.(POST) /api/valoracion/videos/:ID
+    "Como usuario quiero agregar una valoración a un video".
+    ApiValoracionController.php
+    agregarValoracion()
+
+IV. (DELETE) /api/videos/:ID
+    "Como administrador quiero poder eliminar un video".
+    ApiVideoController.php
+    eliminarVideo()
+
+V.  (GET) /api/valoracion/videos/:ID
+    "Como administrador quiero listar todas las valoraciones de un video".
+    ApiValoracionController.php
+    getValoracionesVideo()
